@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 38,
+  "schemaVersion": 39,
   "id": "07b9aef7-d8d1-4640-925d-44037509a5ec",
   "activities": [
     {
@@ -112,6 +112,24 @@
             "referencedStep": {
               "stepReferenceType": 1,
               "referencedStepId": null,
+              "fallback": 1
+            },
+            "anonymousSteps": null
+          },
+          "isBackground": false
+        },
+        {
+          "id": "dd97ab02-26f3-4de9-888b-b514eaaf6ce6",
+          "type": "Microsoft.DPrep.DataProfileInspector",
+          "arguments": {},
+          "reference": {
+            "referenceType": 0,
+            "referenceContainerPath": null,
+            "referencedActivityId": "c9a638c6-7714-4e0d-89e9-7f7447af0f8c",
+            "referencedBranchId": null,
+            "referencedStep": {
+              "stepReferenceType": 0,
+              "referencedStepId": "24709640-bbf6-4954-80fc-3f1d21f52e4d",
               "fallback": 1
             },
             "anonymousSteps": null

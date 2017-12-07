@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 38,
+  "schemaVersion": 39,
   "id": "03618a33-6c1b-42ae-85a5-c6c59736fae0",
   "activities": [
     {
@@ -92,7 +92,7 @@
             },
             "anonymousSteps": null
           },
-          "isBackground": true
+          "isBackground": false
         },
         {
           "id": "66378cca-9d5f-4d22-9b24-20ffd4db722b",
@@ -102,7 +102,8 @@
             "numberOfTopValues": 6,
             "descending": true,
             "includeNulls": true,
-            "haloEffect": true
+            "haloEffect": true,
+            "logScale": false
           },
           "reference": {
             "referenceType": 0,
